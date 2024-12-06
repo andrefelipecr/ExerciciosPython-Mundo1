@@ -1,0 +1,6 @@
+print('======= DESAFIO 13 - REAJUSTE SALARIAL =======')
+sal = float(input('Digite o seu salário atual: R$'))
+novo_sal = sal + sal*(0.15)
+print()
+print(f'Você recebeu um aumento de 15% no seu salário!')
+print(f'Agora você irá passar a receber R${novo_sal:.2f} reais.')

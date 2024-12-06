@@ -1,0 +1,6 @@
+print('======= DESAFIO 10 - CONVERSOR DE MOEDAS =======')
+reais = float(input('Quantos reais você tem na carteira? R$'))
+print()
+print('CONVERTENDO...')
+print()
+print(f'R${reais:.2f} reais = U${reais/6.09:.2f} dólares')

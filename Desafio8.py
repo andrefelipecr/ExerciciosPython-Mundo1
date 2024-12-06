@@ -1,0 +1,5 @@
+print('======= DESAFIO 8 - CONVERSOR DE MEDIDAS =======')
+m = float(input('Digite o comprimento em metros: '))
+print('CONVERTENDO...')
+print(f'{m} metros é o mesmo que:')
+print(f'{m/1000:<10} quilômetros\n{m/100:<10} hectômetros\n{m/10:<10} decâmetros\n{m*10:<10} decímetros\n{m*100:<10} centímetros\n{m*1000:<10} milímetros')
